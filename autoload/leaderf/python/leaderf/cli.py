@@ -642,7 +642,7 @@ class LfCli(object):
     def isFuzzy(self):
         return self._is_fuzzy
 
-    @cursorController
+    # @cursorController
     def input(self, callback):
         try:
             self._history_index = 0
